@@ -1,16 +1,6 @@
-# JSX Viewer — MATV1007
+# JSX Viewer — IMAK2005
 
-A small Vite + React app that auto-discovers every `.jsx` file in `src/` and serves them as standalone, navigable pages. Built to browse the MATV1007 (microbiology) topic overviews:
-
-1. Introduksjon
-2. Cellebiologi
-3. Bakteriell Vekst
-4. Virus
-5. Taksonomi & Kretsløp
-6. Bioteknologi
-   1. Verktøy & teknikker
-   2. Analyseteknikker
-   3. Mutasjoner, genregulering & etikk
+A small Vite + React app that auto-discovers every `.jsx` file in `src/` and serves them as standalone, navigable pages. Built to browse IMAK2005 topic overviews.
 
 The index page lists every detected file; each topic loads lazily when you click it.
 
