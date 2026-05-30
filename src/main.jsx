@@ -62,7 +62,7 @@ function App() {
   }, [])
 
   useEffect(() => {
-    document.title = current ? prettyName(current) : 'MATV1007-Oppsummering'
+    document.title = current ? prettyName(current) : 'IMAK2005-Oppsummering'
   }, [current])
 
   return current ? <Viewer path={current} /> : <Index />
